@@ -1,9 +1,53 @@
-# React + Vite
+# Dharamraj Video Calling App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Introduction
+Dharamraj Video Calling App is a real-time group video calling application built with **React.js** and **ZegoUIKitPrebuilt**. It allows users to join and create video calls using a unique meeting ID.
 
-Currently, two official plugins are available:
+## 🛠️ Features
+- 🔹 **Group Video Calling** – Connect multiple users in a single call.
+- 🔹 **Unique Meeting IDs** – Join calls using a generated ID.
+- 🔹 **One-click Join** – Simple UI for entering and joining meetings.
+- 🔹 **Responsive UI** – Works on both mobile and desktop.
+- 🔹 **Copy & Share Meeting Link** – Easily share call links with others.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# Group_Video_Calling_App" 
+## 📌 Tech Stack
+- **Frontend**: React.js, Tailwind CSS
+- **Real-Time Communication**: ZegoUIKitPrebuilt
+- **Routing**: React Router DOM
+
+## 📝 Usage Guide
+### 1️⃣ Home Page
+- Enter a unique meeting ID.
+- Click **Join Now** to enter the call.
+
+### 2️⃣ Calling Page
+- The video call will be displayed.
+- A **Copy Link** button allows users to share the call link.
+- The **Back** button lets users return to the home page.
+
+## 📂 Folder Structure
+```
+/Group-Calling-App
+│── /src
+│   │── /components
+│   │   ├── Home.jsx
+│   │   ├── Calling.jsx
+│   │── App.jsx
+│   │── main.jsx
+│── /public
+│── package.json
+│── vite.config.js
+│── README.md
+```
+
+## 🛠️ Future Improvements
+- 🔹 **Private Meeting Rooms**
+- 🔹 **User Authentication**
+- 🔹 **Screen Sharing Feature**
+
+## 🤝 Contribution
+Contributions are welcome! Feel free to fork the repo and submit a PR.
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
