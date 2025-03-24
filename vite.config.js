@@ -1,11 +1,14 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Ensures proper asset loading
+  base: './', // Ensures assets load properly
   server: {
-    historyApiFallback: true, // Fixes route handling on Vercel
+    host: true, 
+    port: parseInt(process.env.VITE_PORT) || 5173, // Allows other devices to connect
   },
+  build: {
+    outDir: 'dist',
+  }
 });
