@@ -16,7 +16,7 @@ const Calling = () => {
           sharedLinks: [
             {
               name: 'copy link',
-              url:`http://localhost:5173/calling/${id}` ,
+              url:`https://group-video-calling-app.vercel.app/calling/${id}` ,
             },
           ],
           scenario: {
@@ -34,7 +34,7 @@ const Calling = () => {
         </h1>
         <a
             className="absolute text-white bg-blue-600 top-0 border-blue-700 hover:bg-blue-700 font-semibold px-4 py-2 right-5 rounded"
-            href="http://localhost:5173"
+            href="https://group-video-calling-app.vercel.app"
         >
             Back
         </a>
