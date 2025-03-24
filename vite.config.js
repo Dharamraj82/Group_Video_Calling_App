@@ -3,12 +3,12 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Ensures assets load properly
-  server: {
-    host: true, 
-    port: parseInt(process.env.VITE_PORT) || 5173, // Allows other devices to connect
-  },
+  base: '/',  // Ensures correct path for static assets on Vercel
   build: {
     outDir: 'dist',
+  },
+  server: {
+    host: true,
+    port: 5173,
   }
 });
