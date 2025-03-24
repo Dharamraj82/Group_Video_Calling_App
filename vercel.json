@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/calling/:id",
+        "destination": "/index.html"
+      }
+    ]
+  }
+  
