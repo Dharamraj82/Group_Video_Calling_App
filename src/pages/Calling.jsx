@@ -7,7 +7,7 @@ const Calling = () => {
     let myMeeting = async (element) => {
         const appID = 2068658939;
         const serverSecret = "d2c952f0386b0519c0faca15093db9af";
-        const kitToken =  ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, id,  Date.now().toString(),  "dharamraj");
+        const kitToken =  ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, id,  Date.now().toString(),  id);
 
         const zp = ZegoUIKitPrebuilt.create(kitToken);
         // start the call
